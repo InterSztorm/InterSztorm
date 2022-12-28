@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+.article_FastBlastJanuary
+{
+    background-color: antiquewhite;
+
+}
+.article_OhThePhysicality
+{
+    background-color: blueviolet;
+
+}
+.article_DamView
+{
+    background-color: firebrick;
+}
+.article_NewYR2023
+{
+    background-color: cadetblue;
+}

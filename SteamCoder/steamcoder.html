@@ -1,6 +1,7 @@
 <html>
 <body>
 <script>
+    var code = "";
     function random_codes(length)
     {
         var characters = 'ABCDEFGHIJKLMNOPRQSTUVWXYZ0123456789';
@@ -16,17 +17,14 @@
     }
     function write_random_code()
     {
-        for(var x=0; x<4; x++)
+        for(var x=0; x<2; x++)
         {
-            document.write(random_codes(5) + "-");
+            code += random_codes(5) + "-";
         }
-        document.write(random_codes(5));
+        code += random_codes(5);
+        console.log(code);
     }
-    for(x=0; x<5; x++)
-    {
-        write_random_code();
-        document.write("<p>")
-    }
+    write_random_code();
 </script>
 </body>
 </html>

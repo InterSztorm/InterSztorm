@@ -24,17 +24,26 @@ body
     margin: 5% auto;
     width: 80vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 12vh);
+    grid-template-columns: repeat(auto-fit, 16vh);
     grid-auto-flow: dense;
-    grid-auto-rows: 12vh;
+    grid-auto-rows: 16vh;
     gap: 8px;
     justify-content: center;
 }
 .higher
 {
     grid-row: span 2;
+    grid-column: span 2;
 }
 .wider
 {
     grid-column: span 2;
+}
+@media (max-width: 1200px)
+{
+    .main
+    {
+        grid-template-columns: repeat(auto-fit, 10vh);
+        grid-auto-rows: 10vh;
+    }
 }

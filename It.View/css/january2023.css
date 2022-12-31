@@ -1,19 +1,30 @@
+:root
+{
+    --clr-violet: #6200ff;
+}
 *
 {
     padding: 0;
     margin:  0;
     box-sizing: border-box;
 }
-.article_FastBlastJanuary
+.article_Sportification
 {
     background-color: antiquewhite;
-
 }
-.article_ItView
+.article_NewYearsResolution2023
 {
-    background-color: red;
+    background-color: darkgoldenrod;
 }
-.article_NewYR2023
+.article_OhThePhysicality
+{
+    background-color: darkolivegreen;
+}
+.article_DamView
+{
+    background-color: #6200ff;
+}
+.article_NewYearsEve2023
 {
     background-color: cadetblue;
 }
